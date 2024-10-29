@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/shop-icon-128.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Your cart - SHOP</title>
+</head>
+
+<body>
+    <div class="body-cart"></div>
+    <header class="header">
+        <a href="" class="bars"><i class="fa-solid fa-bars"></i></a>
+        <a href="index.html" class="shop">
+            <h1>shop</h1>
+        </a>
+        <a href="yourcart.html" class="cart"><i class="fa-solid fa-shopping-cart"></i></a>
+    </header>
+    <section class="cart-page">
+        <p class="your-cart">Your Cart</p>
+        <p class="item-cart">(1 item)</p>
+        <div class="cart-items">
+            <a href="itemPricing.html" class="item-img">
+                <div class="item-name-img">
+                    <img src="../images/mens_outerwear/pic1.jpg" alt="" class="cart-image">
+                    <p>Men's Tech Shell Full Zip</p>
+                </div>
+            </a>
+            
+            <div>
+                <form class="cart-qty">
+                    <label for="oty">Qty</label>
+                    <select class="cart-quantity" name="qty" id="qty">
+                        <option value="1" id="qty">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </form>
+            </div>
+            <div class="pricing-detail">
+                <div class="cart-size">
+                    <p>Size: M</p>
+                </div>
+                <div class="cart-price">
+                    <p>$50.50</p>
+                </div>
+                <div class="xmark">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <div class="item-pricing">
+            <div class="cart-pricing">
+                <h5>Total:</h5>
+                <h5>$50.20</h5>
+                <a href="checkout.html"><button class="cart-button">checkout</button></a>
+            </div>
+        </div>
+    </section>
+    <footer class="cart-footer">
+        <a href="#">Made by Polymer</a>
+        <div class="demo">
+            <h2>demo only</h2>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/shop-icon-128.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Checkout - SHOP</title>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="bars"><i class="fa-solid fa-bars"></i></a>        
+        <a href="index.html" class="shop"><h1>shop</h1></a>        
+        <a href="yourcart.html" class="cart"><i class="fa-solid fa-shopping-cart"></i></a>
+    </header>
+    <section class="checkout">
+        <h1>Checkout</h1>
+        <p class="check-demo">Shop is a demo app - form data will not be sent</p><br>
+        <div></div>
+        <form>
+            <div class="part-1">
+                <div class="accInfo">
+                    <label>Account Information</label><br>
+                    <input type="text" placeholder="Email"><br>
+                    <input type="text" placeholder="Phone Number"><br>
+                </div>
+                <div class="shipAdd">
+                    <label>Shipping Address</label><br>
+                    <input type="text" placeholder="Address"><br>
+                    <input type="text" placeholder="City"><br>
+                    <input type="text" placeholder="State/Province">
+                    <input type="text" placeholder="Zip/Postal Code"><br>
+                    <label for="country">Country</label><br>
+                    <select class="checkout-state-menu">
+                        <option value="us">United States</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div>
+                <div class="diffAdd">
+                    <label class="bil">Billing Address</label><br>
+                    <input type="checkbox" id="address">
+                    <label for="address">Use different billing address</label><br>
+                    <div class="Address2">
+                        <input type="text" placeholder="Address"><br>
+                        <input type="text" placeholder="City"><br>
+                        <input type="text" placeholder="State/Province">
+                        <input type="text" placeholder="Zip/Postal Code"><br>
+                        <label>Country</label><br>
+                        <select class="checkout-state-menu">
+                            <option value="us">United States</option>
+                            <option value="canada">Canada</option>
+                        </select>
+                    </div>                    
+                </div>
+            </div>
+            <div class="part-2">
+                <div class="payment">
+                    <label>Payment Method</label><br>
+                    <input type="text" placeholder="Cardholder Name"><br>
+                    <input type="text" placeholder="Card Number"><br>                    
+                    <label>Expiry</label><br>
+                    <div class="expiry">
+                        <select class="checkout-menu">
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="mar">Mar</option>
+                            <option value="apr">Apr</option>
+                            <option value="may">May</option>
+                            <option value="jun">Jun</option>
+                            <option value="jul">Jul</option>
+                            <option value="aug">Aug</option>
+                            <option value="sep">Sep</option>
+                            <option value="oct">Oct</option>
+                            <option value="nov">Nov</option>
+                            <option value="dec">Dec</option>
+                        </select>
+                        <select class="checkout-menu">
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                        </select>
+                        <input type="text" placeholder="CVV" id="cvv">
+                    </div>
+                    <div class="order-summary">
+                        <h5>Order Summary</h5>
+                        <div class="per-item-price">
+                            <p>Men's Tech Shell Full-Zip</p>
+                            <p>$50.20</p>
+                        </div>
+                        <div class="total-price">
+                            <p>Total</p>
+                            <p>$50.50</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="checkout-button">place holder</button>
+            </div>            
+        </form>
+    </section>
+    <footer>
+        <a href="#">Made by Polymer</a>
+        <div class="demo">
+            <h2>demo only</h2>
+        </div>
+    </footer>
+</body>
+</html>

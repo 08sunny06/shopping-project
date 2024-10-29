@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , "Noto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+header {
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -1%;
+    padding-bottom: -1%;
+}
+
+header .bars {
+    margin-left: 5%;
+    visibility: hidden;
+    color: black;
+}
+
+header .arrows {
+    margin-left: 5%;
+    color: black;
+}
+
+header .cart {
+    margin-right: 5%;
+    color: black;
+}
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.3rem;    
+    padding-top: 10px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-top: 2px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500px;
+}
+
+.men-outer {
+    margin-top: -1%;
+}
+
+.men-outer,.women-outer{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.container {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+
+
+.container h2{
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 20px;
+}
+
+button {
+    background-color: #fff;
+    padding: 8px 44px;
+    text-transform: uppercase;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.shirts {
+    /* border: 2px solid; */
+    width: 100%;
+    /* height: 320px; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    /* align-self: center; */
+}
+
+ .shirts .men, .shirts .women{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont {
+    display: flex;
+    width: 1440px;
+}
+
+
+
+.men img, .women img {  
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+}
+
+.shirts-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding-top: 5%;
+}
+
+footer {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 5px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h2 {
+    background-color: rgb(32, 32, 32);
+    box-sizing: border-box;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 14px 18px 14px 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: "Roboto", "Nono", sans-serif;
+    font-weight: 400;
+}
+
+.shop {
+    color: rgb(32, 32, 32);
+    text-decoration: dotted;
+}
+
+section p {
+    /* border: 1px solid; */
+    font-family: 'Roboto', 'Nono', sans-serif;
+    /* margin: -25px; */
+    margin: 0;
+    padding: 0;
+    row-gap: -50px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.new-container h2{
+    margin: 15px 0 2px 0;
+    padding: 10px 0 7px 0;
+}
+
+.menu {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.menu .catelog {
+    /* border: 1px solid; */
+    width: 20%;
+    padding: 7% 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.catelog h3 {
+    /* border: 1px solid; */
+    font-size: 12px;
+    font-family: 'Roboto', 'Nono', sans-serif;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.catelog img {
+    /* border: 1px solid; */
+    min-width: 100%;
+    margin-top: -7%;
+}
+
+.catelog a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu img {
+    /* border: 1px solid; */
+    width: 20%;
+    padding: 5% 3%;
+}
+
+.cart-page {
+    width: 50%;
+    color: rgb(117, 117, 117);
+    margin-top: 5%;
+    padding-top: 0.5%;
+    /* padding-top: 5%; */
+}
+
+.cart-page p {
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 14px;
+    word-spacing: 3px;
+    font-weight: 400;
+}
+
+.item-page img {
+    /* border: 1px solid; */
+    width: 600px;
+    height: 600px;
+}
+
+.item-img {
+    text-decoration: none;
+    color: black;
+}
+
+.item-page {
+    margin: 3% 0;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-pricing-button {
+    position: absolute;
+    bottom: 100px;
+    right: 34%;
+}
+
+.item-details {
+    /* border: 1px solid; */
+    /* max-height: 600px; */
+    width: 36%;
+    margin-left: 5%;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-weight: 300;
+}
+
+.item-details h1, .item-details h3, .item-details .price {
+    font-size: 23px;
+    font-weight: 400;
+    word-spacing: 2px;
+    margin: 5px 0;
+    padding: 6px 0;
+}
+
+.item-details h1 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.item-details .price {
+    font-size: 18px;
+    font-weight: 250;
+    position: relative;
+    bottom: 10px;
+}
+
+.item-details .size, .item-details .quantity {
+    width: 80%;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+}
+
+.item-details .main {
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-details button {
+    text-transform: uppercase;
+    margin: 4% 0;
+}
+
+
+.cart-image {
+    width: 40px;
+    height: 40px;
+}
+
+.item-name-img {
+    display: flex;
+    align-items: center;
+}
+
+.your-cart {
+    color: black;
+    margin-top: -25px;
+}
+
+.item-cart {
+    margin-top: 15px;
+}
+
+.cart-page .your-cart, .cart-page .item-cart {
+    text-align: center;
+}
+
+.cart-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6% 0;
+}
+
+.cart-quantity {
+    border: none;
+    border-bottom: 1px solid;
+    background-color: #fff;
+    margin-left: 2px;
+}
+
+.cart-pricing {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-pricing {
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+}
+
+.pricing-detail {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-button {
+    height: 40px;
+}
+
+.cart-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.checkout {
+    /* border: 1px solid; */
+    margin: 4% 0;
+    width: 80%;
+}
+
+form {
+    margin: 5% 0;
+    margin-bottom: 0;
+}
+
+.checkout h1, .checkout .check-demo {
+    text-align: center;
+}
+
+.checkout form {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-family: 'Roboto', 'Noto', sans-serif;
+}
+
+.checkout label, .checkout input[type="text"] {
+    margin: 6% 0;
+    padding: 1.5% 0;
+    width: 90%;
+    border: none;
+    background-color: #fff;
+}
+
+.expiry {
+    display: flex;
+    align-items: center;
+    gap: 0 35px;
+}
+
+.checkout-menu {
+    width: 20%;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.expiry #cvv {
+    width: 30%;
+}
+
+#address {
+    margin: 4% 0;
+}
+
+.checkout input[type='text'], select{
+    border-bottom: 1px solid;
+}
+
+.checkout .diffAdd {
+    margin: 6% 0;
+    padding: 1.5% 0;
+}
+
+.part-2 input[type="text"] {
+    width: 90%;
+    margin: 6% 0;
+}
+
+.checkout-state-menu {
+    width: 90%;
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid;
+    padding-top: 3%;
+    font-size: 15px;
+}
+
+.Address2 {
+    display: none;
+}
+
+#address:checked ~ .Address2 {
+    display: block;
+}
+
+.order-summary {
+    width: 90%;
+}
+
+.per-item-price, .total-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media(max-width: 760px) {
+    .navbar, .individualImg {
+        display: none;
+    }
+
+    header .fa-bars, header .fa-arrow-left {
+        visibility: visible;
+    }
+
+    .menu .catelog {
+        /* border: 1px solid; */
+        width: 40%;
+        padding: 5% 3%;
+    }
+
+    .item-page {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-page img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .item-details{
+        /* border: 1px solid; */
+        margin-top: 15%;
+        margin-bottom: 20%;
+        padding: 5px 0;
+        display: flex;
+        flex-direction: column;
+        width: 150%;
+    }
+
+    .item-details .main {
+        margin: 2% 0;
+    }
+
+    .checkout form {
+        flex-direction: column;
+        width: 110%;
+    }
+
+    .expiry {
+        align-items: center;
+    }
+
+    .expiry #cvv {
+        width: 35%;
+    }
+
+    .payment {
+        margin-top: -23%;
+    }
+
+    .your-cart {
+        color: black;
+        margin-bottom: 11px;
+    }
+
+    .item-name-img {
+        position: relative;
+        right: 55px;
+    }
+
+    .item-name-img p {
+        font-family: 'Roboto', 'Noto', sans-serif;
+        font-size: 13px;
+        word-spacing: 0;
+    }
+
+    .cart-footer {
+        display: none;
+    }
+
+    .cart-price, .cart-size, .cart-qty {
+        position: relative;
+        top: 40px;
+        left: 95px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cart-price p, .cart-size p, .cart-qty #qty {
+        font-size: 12px;
+    }
+
+    .cart-size {
+        left: 65px;
+        width: 50px;
+    }
+
+    .cart-qty {
+        left: 35px;
+        width: 65px;
+    }
+
+    .xmark{
+        position: relative;
+        left: 85px;
+    }
+
+    .item-pricing {
+        position: relative;
+        top: 15px;
+        left: 85px;
+    }
+
+    .checkout-button, .item-pricing-button, .cart-button {
+        background-color: rgb(23, 44, 80);
+        color: #fff;
+        width: 100%;
+        padding: 5%;
+        border: none;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+}
